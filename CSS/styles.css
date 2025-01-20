@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Work Sans;
+}
+
+/* Common shared files */
+
+.btn{
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    height: 52px;
+    width: 116px;
+    margin: 31px 110px 31px 0px ;
+}
+
+
+
+/* Nav bar */
+.nav_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_btn{
+    font-family: Fira Sans;
+}
+
+.nav_title{
+    font-family: Fira Sans;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 31px 0 31px 110px ;
+}
+
+
+/* Main style */
+
+.main1{
+    display: flex;
+    height: 560px;
+    width: 1280px;
+    margin: 20px auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+.main1_bd_title{
+    margin: 117px 0 117px 60px ;
+    width: 622px;
+    
+}
+
+.main1_bd_title_1{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: Fira Sans;
+    display: block;
+}
+
+.main1_bd_title_2{
+    display: block;
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-size: 56px;
+    width: 615px;
+    margin: 24px 10px 24px 0px ;
+}
+
+.main1_bd_title_button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+}
+
+.main1_bd_img{
+    margin: auto  ;
+}
+
+/* Pillars of Bangladesh 2.0 */
+
+.pillars_main{
+    width: 1280px;
+    margin: 0px auto;
+    margin-bottom: 80px;
+}
+
+.pillars_title{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pillars_part{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.pillars_section{
+    border: 1px solid black;
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+}
+
+.pillars_section img{
+    height: 62px;
+    width: 62px;
+    margin: 25px 215px 24px 25px;
+}
+
+.pillars_section span{
+    margin: 0px 24px 24px 24px;
+    display: block;
+}
+
+.pillars_title1{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pillars_des{
+    font-family: Fira Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    
+}
+
+
+
