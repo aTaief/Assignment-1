@@ -6,6 +6,11 @@
 
 /* Common shared files */
 
+.btn:hover{
+    cursor: pointer;
+    background-color: #69b69c;
+}
+
 .btn{
     border: 2px solid #006A50;
     border-radius: 8px;
@@ -94,6 +99,11 @@
     font-size: 56px;
     width: 615px;
     margin: 24px 10px 24px 0px ;
+}
+.main1_bd_title_button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #006A50;
 }
 
 .main1_bd_title_button{
@@ -215,15 +225,33 @@
     margin: 0px 32px 24px 32px;
 }
 
+.vision_section_button1:hover{
+    background-color: rgba(84, 144, 245, 0.2);
+    color: #0E0E0E;
+    cursor: pointer;
+}
+
 .vision_section_button1{
     background-color: #5490F5;
     margin: 0px 256.67px 32px 32px;
+}
+
+.vision_section_button2:hover{
+    background-color: #54cb93;
+    color: #0E0E0E;
+    cursor: pointer;
 }
 
 .vision_section_button2{
     background-color: #09A15C;
     margin: 24px 256.67px 32px 32px;
 
+}
+
+.vision_section_button3:hover{
+    background-color: #d8caaa;
+    color: #0E0E0E;
+    cursor: pointer;
 }
 
 .vision_section_button3{
@@ -419,6 +447,12 @@
     margin-bottom: 32px;
 }
 
+.news_part_button:hover{
+    background-color: #8ad1bf;
+    color: #0E0E0E;
+    cursor: pointer;
+}
+
 .news_part_button{
     background-color: #006A50;
     border-radius: 8px;
@@ -464,6 +498,12 @@
     margin-bottom: 32px;
 }
 
+.donate_taka:hover{
+    background-color: #8ad1bf;
+    color: #0E0E0E;
+    cursor: pointer;
+}
+
 .donate_taka{
     font-family: Fira Sans;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.10);
@@ -495,6 +535,12 @@
     font-size: 20px;
     text-align: center;
     color: rgba(14, 14, 14, 0.3);
+}
+
+.donate_button:hover{
+    background-color: #8ad1bf;
+    color: #0E0E0E;
+    cursor: pointer;
 }
 
 .donate_button{
@@ -557,6 +603,12 @@
     color: rgba(14, 14, 14, 0.3);
 }
 
+.subscribe_part button:hover{
+    background-color: #8ad1bf;
+    color: #0E0E0E;
+    cursor: pointer;
+}
+
 .subscribe_part button{
     background-color: #006A50;
     color: white;
@@ -600,6 +652,10 @@ footer hr{
     opacity: 0.2;
     width: 1122px;
     margin-bottom: 32px;
+}
+
+.footer_icon div img:hover{
+    cursor: pointer;
 }
 
 .footer_icon{
